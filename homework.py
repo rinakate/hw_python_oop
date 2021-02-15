@@ -51,7 +51,7 @@ class CashCalculator(Calculator):
             'usd': tuple([self.USD_RATE, 'USD']),
             'eur': tuple([self.EURO_RATE, 'Euro']),
             'rub': tuple([self.RUB_RATE, 'руб'])
-            }
+        }
 
         val_course, val_name = currency_values[currency]
 
