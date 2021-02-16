@@ -61,7 +61,7 @@ class CashCalculator(Calculator):
             return (f'На сегодня осталось {conv_remaning_money:.2f} '
                     f'{val_name}')
         elif remaning_money == 0:
-            return ('Денег нет, держись')
+            return 'Денег нет, держись'
         conv_module = abs(conv_remaning_money)
         return (f'Денег нет, держись: твой долг - {conv_module:.2f} '
                 f'{val_name}')
