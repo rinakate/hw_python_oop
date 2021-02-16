@@ -35,7 +35,7 @@ class Calculator:
             record.amount
             for record in self.records
             if last_week < record.date <= today
-            )
+        )
 
     def get_today_remainder(self):
         return self.limit - self.get_today_stats()
